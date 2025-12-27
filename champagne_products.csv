@@ -1,0 +1,11 @@
+foodId,label,category,foodContentsLabel,image
+3049610004104,Veuve Clicquot Champagne Ponsardin Brut,Non spécifiée,Champagne,{'fr': 'https://images.openfoodfacts.org/images/products/304/961/000/4104/front_fr.39.400.jpg'}
+20712907,Champagne,Non spécifiée,Non spécifié,{'fr': 'https://images.openfoodfacts.org/images/products/000/002/071/2907/front_fr.6.400.jpg'}
+3282946015837,Nicolas Feuillatte,Non spécifiée,"Champagne, Contient des _sulfites_",{'fr': 'https://images.openfoodfacts.org/images/products/328/294/601/5837/front_fr.7.400.jpg'}
+3043700103715,Champagne brut Cordon Rouge,Non spécifiée,Contient des sulfites.,{'fr': 'https://images.openfoodfacts.org/images/products/304/370/010/3715/front_fr.11.400.jpg'}
+3245391237858,Champagne CHARLES VINCENT BRUT,Non spécifiée,Champagne brut.,{'fr': 'https://images.openfoodfacts.org/images/products/324/539/123/7858/front_fr.24.400.jpg'}
+3256930103817,Champagne Blue Top Brut,Non spécifiée,Champagne (_sulfites_),{'fr': 'https://images.openfoodfacts.org/images/products/325/693/010/3817/front_fr.17.400.jpg'}
+3352370002830,Pommery Champagne,Non spécifiée,Sulfites,{'fr': 'https://images.openfoodfacts.org/images/products/335/237/000/2830/front_fr.18.400.jpg'}
+3185370283905,Champagne Ruinart,Non spécifiée,champagne,{'en': 'https://images.openfoodfacts.org/images/products/318/537/028/3905/front_en.5.400.jpg'}
+3416181017169,"Champagne AOP, brut",Non spécifiée,Champagne,{'fr': 'https://images.openfoodfacts.org/images/products/341/618/101/7169/front_fr.7.400.jpg'}
+3043700104330,Champagne Rosé,Non spécifiée,,{'fr': 'https://images.openfoodfacts.org/images/products/304/370/010/4330/front_fr.4.400.jpg'}
