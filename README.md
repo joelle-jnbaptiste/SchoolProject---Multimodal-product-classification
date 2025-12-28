@@ -1,211 +1,191 @@
-<!-- Improved compatibility of back to top link -->
-<a id="readme-top"></a>
-
-<!-- PROJECT SHIELDS -->
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-
-<h3 align="center">🪄 Multimodal Product Classification</h3>
-
 <p align="center">
-  Automatic classification of consumer goods using both textual descriptions and product images, combining text preprocessing, image feature extraction, dimensionality reduction, and supervised machine learning.
-  <br />
-  <br />
-  <a href="https://www.kaggle.com/datasets/atharvjairath/flipkart-ecommerce-dataset"><strong>View Dataset (Flipkart) »</strong></a>
-  <br />
-  <br />
-  <a href="https://world.openfoodfacts.org/"><strong>View Dataset (Open Food Facts) »</strong></a>
-  <br />
-  <br />
-  <a href="https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification">Solution Repository</a>
+  <img src="https://img.shields.io/github/license/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/School%20Project-ML%20%26%20Data-blueviolet?style=for-the-badge" />
 </p>
+
+<h1 align="center">✨ Multimodal Product Classification ✨</h1>
+
+<div align="center">
+  <em>
+     *When text and images work together to understand products*
+  </em>
+</br>
+
+ <b>Automatic classification of consumer products using both textual descriptions and product images, combining multimodal feature extraction and supervised learning</b>
+</br>
+</br>
+🗃️ **Datasets**  
+ https://www.kaggle.com/datasets/abhishek14398/flipkart-ecommerce-dataset  
+ https://world.openfoodfacts.org/
+  
 </div>
 
 ---
 
+
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>📜 Table of Contents</summary>
+  <summary>🧭 Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">🔮 About The Project</a>
-      <ul>
-        <li><a href="#datasets">🧺 Datasets</a></li>
-        <li><a href="#built-with">✨ Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">🪄 Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">📘 Prerequisites</a></li>
-        <li><a href="#installation">🧙 Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">📖 Usage</a></li>
-    <li><a href="#roadmap">🗺️ Roadmap</a></li>
-    <li><a href="#license">📄 License</a></li>
-    <li><a href="#contact">📬 Contact</a></li>
+    <li><a href="#-built-with">Built With</a></li>
+    <li><a href="#-about-the-project">About The Project</a></li>
+    <li><a href="#-dataset">Dataset</a></li>
+    <li><a href="#-analysis-workflow">Analysis Workflow</a></li>
+    <li><a href="#-repository-structure">Repository Structure</a></li>
+    <li><a href="#-getting-started">Getting Started</a></li>
+    <li><a href="#-license">License</a></li>
+    <li><a href="#-contact">Contact</a></li>
   </ol>
 </details>
 
 ---
-
-## 🔮 About The Project
-
-This repository contains a **multimodal product classification** pipeline built from **textual product information** and **product images**.
-
-The goal is to demonstrate how combining modalities can improve product categorization compared to unimodal approaches.
-
-Key topics covered:
-- Text preprocessing and feature extraction
-- Image feature extraction
-- Dimensionality reduction for analysis and visualization
-- Supervised machine learning models
-- Comparative evaluation between modalities (text vs image vs combined)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## 🧺 Datasets
-
-This project uses two open data sources:
-
-- **Flipkart Ecommerce Dataset (Kaggle)**  
-  Includes product metadata such as titles/descriptions and categories.  
-  https://www.kaggle.com/datasets/atharvjairath/flipkart-ecommerce-dataset
-
-- **Open Food Facts (Public Database + API)**  
-  Used to retrieve real food products with text fields and product images.  
-  https://world.openfoodfacts.org/
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
 ### ✨ Built With
 
 [![Python][Python-shield]][Python-url]
 [![Jupyter][Jupyter-shield]][Jupyter-url]
 [![Pandas][Pandas-shield]][Pandas-url]
-[![ScikitLearn][Sklearn-shield]][Sklearn-url]
+[![NumPy][NumPy-shield]][NumPy-url]
+[![ScikitLearn][ScikitLearn-shield]][ScikitLearn-url]
+[![Matplotlib][Matplotlib-shield]][Matplotlib-url]
+[![Seaborn][Seaborn-shield]][Seaborn-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🎯 About The Project
+
+This project implements a **multimodal product classification pipeline**, combining **textual product information** and **product images** to automatically categorize consumer goods.
+
+The main objective is to demonstrate how **combining multiple data modalities** improves classification performance compared to unimodal approaches.
+
+Key aspects of the project include:
+
+- Text preprocessing and feature extraction
+- Image feature extraction
+- Dimensionality reduction and visualization
+- Supervised machine learning models
+- Comparative evaluation between modalities (text vs image vs combined)
+
+The entire workflow is implemented in **Jupyter Notebooks**, with a strong focus on **methodology**, **interpretability**, and **experimental comparison**.
+
 ---
 
-## 🪄 Getting Started
+## 🗃️  Dataset
 
-This project is built with **Python notebooks**.  
-To reproduce results locally, follow these steps.
+This project relies on two complementary open data sources:
 
-### 📘 Prerequisites
+### Flipkart E-commerce Dataset (Kaggle)
+- Product titles and descriptions
+- Product categories
+
+https://www.kaggle.com/datasets/abhishek14398/flipkart-ecommerce-dataset
+
+### Open Food Facts (API)
+- Food product textual fields
+- Product images
+- Category metadata
+
+https://world.openfoodfacts.org/
+
+A dedicated notebook is used to **collect data via the Open Food Facts API** and build a reusable dataset for experimentation.
+
+---
+
+## 🧠 Analysis Workflow
+
+The notebooks follow a structured multimodal workflow:
+
+1. **Data Collection**
+   - API calls to Open Food Facts
+   - Dataset construction and export
+
+2. **Text Processing**
+   - Cleaning and normalization
+   - Feature extraction (TF-IDF / embeddings)
+
+3. **Image Processing**
+   - Image URL handling / downloads
+   - Visual feature extraction
+
+4. **Dimensionality Reduction**
+   - Visualization of feature spaces
+   - Comparative analysis between modalities
+
+5. **Supervised Classification**
+   - Training classification models
+   - Performance evaluation
+
+6. **Multimodal Comparison**
+   - Text-only vs image-only vs combined
+   - Interpretation of results
+
+---
+
+## 🗺️ Repository Structure
+
+    SchoolProject---Multimodal-product-classification/
+    ├── notebooks/
+    │   ├── JEANBAPTISTE_Joelle_1_notebook_pretraitement.ipynb
+    │   ├── JEANBAPTISTE_Joelle_2_notebook_classification.ipynb
+    │   └── JEANBAPTISTE_Joelle_3_script_Python_Collecte.ipynb
+    │
+    ├── champagne_products.csv     # Example dataset from Open Food Facts
+    └── README.md
+
+---
+
+## ⚔️ Getting Started
+
+This project is designed to be explored locally using **Jupyter Notebook**.
+
+### Prerequisites
 
 - Python 3.9+
-- pip (or conda)
-- Jupyter Notebook / JupyterLab
+- pip or conda
+- Jupyter Notebook or JupyterLab
 
-### 🧙 Installation
+### Installation
 
 1. Clone the repository:
 
        git clone https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification.git
 
-2. Install dependencies:
+2. Navigate to the project folder:
+
+       cd SchoolProject---Multimodal-product-classification
+
+3. Install dependencies:
 
        pip install -r requirements.txt
 
-> If you don’t have a `requirements.txt` yet, you can install the main packages:
->
->       pip install pandas numpy scikit-learn matplotlib seaborn requests jupyter
+   If no requirements file is available:
 
-3. Launch Jupyter:
+       pip install pandas numpy scikit-learn matplotlib seaborn requests jupyter
+
+4. Launch Jupyter Notebook:
 
        jupyter notebook
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ---
 
-## 📖 Usage
+## ✒️ License
 
-Open the notebooks in this order:
-
-1. **Preprocessing notebook**  
-   - Loads datasets  
-   - Cleans text fields  
-   - Prepares image URLs / downloads assets if needed  
-
-2. **Classification notebook**  
-   - Extracts features (text + image)  
-   - Applies dimensionality reduction  
-   - Trains supervised models and evaluates performance  
-
-3. **Data collection script notebook (Open Food Facts)**  
-   - Calls the Open Food Facts API  
-   - Builds a dataset (example: champagne products)  
-   - Exports a CSV file used for downstream experiments  
-
-Files included in the repository:
-- `champagne_products.csv`: sample dataset built from Open Food Facts
-- Notebooks: end-to-end pipeline from data collection to modeling
+This project is provided for educational purposes.  
+Data licenses remain governed by their original sources (Kaggle and Open Food Facts).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Add a reproducible `requirements.txt`
-- [ ] Improve dataset balancing and category mapping
-- [ ] Add a unified multimodal training pipeline (single entrypoint)
-- [ ] Add model comparison report (text vs image vs multimodal)
-- [ ] Add evaluation on unseen categories/products
-- [ ] Package inference as a simple API (FastAPI) or a demo app (Streamlit)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## 📄 License
-
-This project is provided for educational purposes.
-
-Data licensing is governed by the original sources:
-- Kaggle dataset terms for Flipkart
-- Open Food Facts database terms for Open Food Facts
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## 📬 Contact
+## 🕊️ Contact
 
 Joëlle JEAN BAPTISTE  
 LinkedIn: https://fr.linkedin.com/in/joëllejnbaptiste  
 
-Project Link:  
-https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification
+Project Link: https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[stars-shield]: https://img.shields.io/github/stars/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification.svg?style=for-the-badge
-[stars-url]: https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification.svg?style=for-the-badge
-[issues-url]: https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classification/issues
-[license-shield]: https://img.shields.io/badge/License-Educational-purple?style=for-the-badge
-[license-url]: #
-[linkedin-shield]: https://img.shields.io/badge/LinkedIn-4B0082?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: https://fr.linkedin.com/in/joëllejnbaptiste
 
 [Python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
@@ -213,5 +193,11 @@ https://github.com/joelle-jnbaptiste/SchoolProject---Multimodal-product-classifi
 [Jupyter-url]: https://jupyter.org/
 [Pandas-shield]: https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
 [Pandas-url]: https://pandas.pydata.org/
-[Sklearn-shield]: https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white
-[Sklearn-url]: https://scikit-learn.org/
+[NumPy-shield]: https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white
+[NumPy-url]: https://numpy.org/
+[ScikitLearn-shield]: https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
+[ScikitLearn-url]: https://scikit-learn.org/
+[Matplotlib-shield]: https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge
+[Matplotlib-url]: https://matplotlib.org/
+[Seaborn-shield]: https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge
+[Seaborn-url]: https://seaborn.pydata.org/
